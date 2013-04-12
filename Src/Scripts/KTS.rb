@@ -648,11 +648,11 @@ end
 #    kts_start
 #    @kts_window = Window_KTS.new(0,304)
 #  end
-  #alias kts_terminate terminate
-  #def terminate
-  #  kts_terminate
-  #  @kts_window.dispose
-  #end
+#  alias kts_terminate terminate
+#  def terminate
+#    kts_terminate
+#    @kts_window.dispose
+#  end
 #  alias kts_update update
 #  def update
 #    kts_update

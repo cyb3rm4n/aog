@@ -6935,12 +6935,12 @@ root: !ruby/object:RPG::Map
           code: 101
           indent: 0
           parameters:
-          - \face[]\nm[]-No Entry-
+          - \face[]\nm[]-Входа нет-
         - !ruby/object:RPG::EventCommand
           code: 401
           indent: 0
           parameters:
-          - Trespassers Will be Punished!
+          - Нарушители будут наказаны
         - !ruby/object:RPG::EventCommand
           code: 0
           indent: 0
@@ -6993,7 +6993,7 @@ root: !ruby/object:RPG::Map
           code: 101
           indent: 0
           parameters:
-          - \face[]<- Farm
+          - \face[]<- Ферма
         - !ruby/object:RPG::EventCommand
           code: 401
           indent: 0
@@ -27420,42 +27420,42 @@ root: !ruby/object:RPG::Map
           code: 101
           indent: 0
           parameters:
-          - \face[]\nm[Market Keeper]
+          - \face[]\nm[Продавец]
         - !ruby/object:RPG::EventCommand
           code: 401
           indent: 0
           parameters:
-          - ! 'Hello Garnet, I''ve just returned from '
+          - Привет, Гарнет! Я только что вернул-
         - !ruby/object:RPG::EventCommand
           code: 401
           indent: 0
           parameters:
-          - Avalon with plenty of new items!
+          - ся из Авалона с новым товаром!
         - !ruby/object:RPG::EventCommand
           code: 101
           indent: 0
           parameters:
-          - You won't be able to find amour of this
+          - Ты не сможешь найти броню подобно-
         - !ruby/object:RPG::EventCommand
           code: 401
           indent: 0
           parameters:
-          - quality anywhere else in Dali!
+          - го качества нигде больше в Дали!
         - !ruby/object:RPG::EventCommand
           code: 102
           indent: 0
           parameters:
-          - - Examine Armour
-            - Examine Items
-            - Repair
-            - Never mind
+          - - Посомтреть броню
+            - Посмотреть предметы
+            - Починка
+            - Уйти
           - 4
         - !ruby/object:RPG::EventCommand
           code: 402
           indent: 0
           parameters:
           - 0
-          - Examine Armour
+          - Посомтреть броню
         - !ruby/object:RPG::EventCommand
           code: 302
           indent: 1
@@ -27477,7 +27477,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           parameters:
           - 1
-          - Examine Items
+          - Посмотреть предметы
         - !ruby/object:RPG::EventCommand
           code: 302
           indent: 1
@@ -27517,7 +27517,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           parameters:
           - 2
-          - Repair
+          - Починка
         - !ruby/object:RPG::EventCommand
           code: 355
           indent: 1
@@ -27532,7 +27532,7 @@ root: !ruby/object:RPG::Map
           indent: 0
           parameters:
           - 3
-          - Never mind
+          - Уйти
         - !ruby/object:RPG::EventCommand
           code: 0
           indent: 1
@@ -27545,12 +27545,12 @@ root: !ruby/object:RPG::Map
           code: 101
           indent: 0
           parameters:
-          - \nm[Market Keeper]
+          - \nm[Продавец]
         - !ruby/object:RPG::EventCommand
           code: 401
           indent: 0
           parameters:
-          - Please stop by again soon.
+          - Пожалуйста, приходите ещё!
         - !ruby/object:RPG::EventCommand
           code: 0
           indent: 0
@@ -46499,7 +46499,7 @@ root: !ruby/object:RPG::Map
           code: 101
           indent: 0
           parameters:
-          - \face[]*Garnet found 100G"
+          - \face[]*Гарнет нашла 100G"
         - !ruby/object:RPG::EventCommand
           code: 125
           indent: 0
@@ -46511,17 +46511,17 @@ root: !ruby/object:RPG::Map
           code: 101
           indent: 0
           parameters:
-          - \nm[Garnet]
+          - \nm[Гарнет]
         - !ruby/object:RPG::EventCommand
           code: 401
           indent: 0
           parameters:
-          - ! 'Seriously, who just leaves '
+          - Серьёзно, кто-то просто так оставил
         - !ruby/object:RPG::EventCommand
           code: 401
           indent: 0
           parameters:
-          - money lying around in grass.
+          - деньги прямо на траве.
         - !ruby/object:RPG::EventCommand
           code: 123
           indent: 0
@@ -46629,7 +46629,7 @@ root: !ruby/object:RPG::Map
           code: 101
           indent: 0
           parameters:
-          - \nm[]\face[]Woof
+          - \nm[]\face[]Гав
         - !ruby/object:RPG::EventCommand
           code: 0
           indent: 0
@@ -47078,7 +47078,7 @@ root: !ruby/object:RPG::Map
           code: 401
           indent: 0
           parameters:
-          - MINE!!
+          - МОЁ!!
         - !ruby/object:RPG::EventCommand
           code: 208
           indent: 0
@@ -57193,17 +57193,17 @@ root: !ruby/object:RPG::Map
           code: 101
           indent: 0
           parameters:
-          - \nm[Night Patrol Soldier]
+          - \nm[Солдат ночного патруля]
         - !ruby/object:RPG::EventCommand
           code: 401
           indent: 0
           parameters:
-          - Be careful. Who knows what dangers
+          - Будь осторожна. Кто знает, какие о-
         - !ruby/object:RPG::EventCommand
           code: 401
           indent: 0
           parameters:
-          - there are in the dark.
+          - посности поджидают тебя в темноте
         - !ruby/object:RPG::EventCommand
           code: 0
           indent: 0
@@ -57319,17 +57319,17 @@ root: !ruby/object:RPG::Map
           code: 101
           indent: 0
           parameters:
-          - \nm[Night Patrol Soldier]
+          - \nm[Солдат ночного патруля]
         - !ruby/object:RPG::EventCommand
           code: 401
           indent: 0
           parameters:
-          - Be careful. Who knows what dangers
+          - Будь осторожна. Кто знает, какие о-
         - !ruby/object:RPG::EventCommand
           code: 401
           indent: 0
           parameters:
-          - there are in the dark.
+          - посности поджидают тебя в темноте
         - !ruby/object:RPG::EventCommand
           code: 0
           indent: 0
